@@ -9,7 +9,11 @@ import java.util.regex.*;
 public class Solution {
 
     public static void main(String[] args) {
-        /* Enter your code here. */
+    	 Scanner scanner = new Scanner(System.in);
+    	 int T = scanner.nextInt();
+    	 while (T-- > 0) {
+			
+		}
     }
 }
 
