@@ -6,7 +6,7 @@ public class Solution {
 
 	public static void isPrime(int number) {
 		boolean isPrime = true;
-		for (int j = 2; j < Math.sqrt(number); j++) {
+		for (int j = 2; j <= Math.sqrt(number); j++) {
 			if (number % j == 0) {
 				isPrime = false;
 			}
