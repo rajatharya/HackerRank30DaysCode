@@ -5,9 +5,14 @@ import java.util.Scanner;
 public class Solution {
 
 	public static Node removeDuplicates(Node head) {
-		Node current = head;
-		while (current.next != null) {
-			current = current.next;
+		Node currentNode = head;
+		while (currentNode.next != null) {
+			while (currentNode.next != null && currentNode.data == currentNode.next.data) {
+				currentNode.next = currentNode.next.next;
+			}
+			if (currentNode.next != null) {
+				currentNode = currentNode.next;
+			}
 		}
 		return head;
 	}
