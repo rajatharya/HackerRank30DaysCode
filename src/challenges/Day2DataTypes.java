@@ -10,6 +10,7 @@ public class Day2DataTypes {
 		double d = 4.0;
 		String s = "HackerRank ";
 				
+		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
 		int j;
 		double dd;

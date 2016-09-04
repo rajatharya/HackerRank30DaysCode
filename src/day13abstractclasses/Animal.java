@@ -22,6 +22,7 @@ public abstract class Animal {
 	public static void main(String[] args) {
 		Animal a = new Dog(10);
 		// a.ruff();  Causes complier error
+		@SuppressWarnings("unused")
 		Animal aa = (Dog) a;
 		// aa.ruff(); Causes compiler error
 		((Dog) a).ruff();

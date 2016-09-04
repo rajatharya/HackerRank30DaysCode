@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class BinaryNumbers {
 
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 		int base10Number = scanner.nextInt();
 		int remainder = 0, counter = 0, maxCount = 0;
